@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 800px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.file-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 0;
+}
+
+.export-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.export-button {
+  align-self: flex-end;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.export-button:hover {
+  background: #0056b3;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
